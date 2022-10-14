@@ -1,0 +1,25 @@
+*   [32m27c3072[m                merge conflict resolution               [31m (HEAD -> main, origin/main, origin/HEAD)[m [34m[Sapan Patibandha][m [33mThu Oct 13 14:30:40 2022[m
+[31m|[m[32m\[m  
+[31m|[m [32m|[m 
+[31m|[m * [32mb986f52[m                    arrays file added                   [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 21:51:20 2022[m
+[31m|[m [32m|[m 
+[31m|[m * [32mc24cdc8[m                    switch case added                   [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 21:14:13 2022[m
+[31m|[m [32m|[m 
+* [32m|[m [32mc688d4a[m                         switch                         [31m[m [34m[Sapan Patibandha][m [33mThu Oct 13 14:29:03 2022[m
+[32m|[m[32m/[m  
+[32m|[m 
+* [32mee69d13[m                   switch and if elase                  [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 18:52:50 2022[m
+[32m|[m 
+* [32m4877da4[m                     for loop added                     [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 16:50:45 2022[m
+[32m|[m 
+* [32m8350f33[m                 constant example added                 [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 14:59:26 2022[m
+[32m|[m 
+* [32m6e4ca83[m                    readme file added                   [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 14:45:49 2022[m
+[32m|[m 
+* [32m4ad9ed7[m                    variables added.                    [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 14:42:34 2022[m
+[32m|[m 
+* [32m8aef872[m                     veriable added                     [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 14:14:26 2022[m
+[32m|[m 
+* [32m3360923[m                      ignore added.                     [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 13:56:53 2022[m
+[32m|[m 
+* [32m0251183[m                      first commit                      [31m[m [34m[Sapan Patibandha][m [33mWed Oct 12 13:54:11 2022[m
