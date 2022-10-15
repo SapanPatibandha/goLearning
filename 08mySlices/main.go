@@ -37,4 +37,13 @@ func main() {
 
 	fmt.Println(scores)
 
+	// how to remove values from slices.
+
+	var cources = []string{"C#", "Java", "GOlang", "Python"}
+	fmt.Println(cources)
+
+	var index int = 1
+	cources = append(cources[:index], cources[index+1:]...)
+
+	fmt.Println(cources)
 }
