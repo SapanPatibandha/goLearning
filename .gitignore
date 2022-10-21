@@ -10,7 +10,7 @@
 *.txt
 *.dat
 *.csv
-lcowebserver/node_modules/
+**/lcowebserver/node_modules/
 
 
 # Test binary, built with `go test -c`
