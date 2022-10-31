@@ -4,17 +4,22 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"net/url"
 	"strings"
 )
 
 func main() {
-	fmt.Println("Welcome to Web Request ")
+	fmt.Println("Welcome to Web Request --")
 
 	// getRequestTrial("http://localhost:8000/get")
 
 	// fmt.Println("==========================================================================")
 
-	postRequestTrial("http://localhost:8000/post")
+	//postRequestTrial("http://localhost:8000/post")
+
+	// fmt.Println("==========================================================================")
+
+	performFormRequest("http://localhost:8000/postform")
 }
 
 func checkError(err error) {
@@ -69,4 +74,22 @@ func postRequestTrial(url string) {
 
 	fmt.Println(string(content))
 
+}
+
+func performFormRequest(myurl string) {
+
+	data := url.Values{}
+	data.Add("firstname", "Sapan")
+	data.Add("lasttname", "Sapan")
+	data.Add("email", "patibandha@yahoo.com")
+
+	response, err := http.PostForm(myurl, data)
+
+	checkError(err)
+
+	defer response.Body.Close()
+
+	content, _ := ioutil.ReadAll(response.Body)
+
+	fmt.Println(string(content))
 }
