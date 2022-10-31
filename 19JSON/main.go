@@ -16,7 +16,8 @@ type cource struct {
 func main() {
 	fmt.Println("Welcome to JSON trial")
 
-	EncodeJSON()
+	// EncodeJSON()
+	DecodeJSON()
 }
 
 func checkError(err error) {
@@ -38,4 +39,35 @@ func EncodeJSON() {
 	checkError(err)
 
 	fmt.Printf("%s \n", finalJSON)
+}
+
+func DecodeJSON() {
+	jsonData := []byte(`
+	{
+		"courcename": "C",
+		"prize": 100,
+		"platform": "Offlie",
+		"Tages": ["basic","learning"]
+	}
+	`)
+
+	var listCource cource
+
+	if json.Valid(jsonData) {
+		fmt.Println("JSON was valid")
+		json.Unmarshal(jsonData, &listCource)
+		fmt.Printf("%#v\n", listCource)
+	} else {
+		fmt.Printf("JSON WAS NOT VALID")
+	}
+
+	//convert JSON data to just key value pare.
+
+	var onlineData map[string]interface{}
+	json.Unmarshal(jsonData, &onlineData)
+	fmt.Printf("%#v\n", onlineData)
+
+	for k, v := range onlineData {
+		fmt.Printf("key is %v and values is %v and type is %t\n", k, v, v)
+	}
 }
