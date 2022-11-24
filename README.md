@@ -6,6 +6,6 @@ https://roadmap.sh/golang
 
 
 
-https://www.youtube.com/watch?v=O8uUGEobo-Q
 
-
+https://www.youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa
+Playlist
